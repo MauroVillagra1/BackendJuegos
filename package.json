@@ -3,10 +3,20 @@
   "version": "1.0.0",
   "description": "Games Project Backend",
   "main": "index.js",
+  "type": "module",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "Villagra Mauro",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-validator": "^7.0.1",
+    "mongose": "^0.0.2-security",
+    "morgan": "^1.10.0"
+  }
 }
